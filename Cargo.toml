@@ -1,9 +1,12 @@
 [package]
 name = "libc-stdhandle"
+description = "Helper functions for retrieving stdin, stdout, stderr."
 version = "0.1.0"
 authors = ["CrLF0710 <crlf0710@gmail.com>"]
 license = "MIT/Apache-2.0"
 build = "build.rs"
+repository = "https://github.com/crlf0710/libc-stdhandle"
+documentation = "https://docs.rs/libc-stdhandle"
 
 [dependencies]
 libc = "0.2"
