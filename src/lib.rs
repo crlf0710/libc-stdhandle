@@ -1,5 +1,6 @@
 //! Helper functions for retrieving stdin, stdout, stderr to work with `libc`.
 #![warn(missing_docs)]
+#![no_std]
 
 extern crate libc;
 
